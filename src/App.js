@@ -1,10 +1,13 @@
+import React from 'react'
+import {Products, Navbar} from './components'
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div>Hello</div>
-  );
+    <div>
+    <Navbar/>
+      <Products/>
+    </div>
+  )
 }
 
-export default App;
+export default App
